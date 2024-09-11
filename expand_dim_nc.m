@@ -4,7 +4,7 @@ function [rc] = expand_dim_nc(filename,dimension_name,new_length)
 %   filename       - existing file (new one will get _ext suffix
 %   dimension_name - dimension to expand
 %   new_length     - length to which dimension should be expanded
-
+%
 
 fname=filename;
 fname_new=[fname(1:end-3),'_ext.nc'];

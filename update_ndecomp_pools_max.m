@@ -3,6 +3,7 @@ fname_new=[fname(1:end-3),'_ext.nc'];
 new_len=10;
 
 %% find dimension
+%
 nci=ncinfo(fname); %get structure of the nc file
 dimname='ndecomp_pools_max';
 for i = 1:length(nci.Dimensions)
