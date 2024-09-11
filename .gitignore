@@ -1,2 +1,4 @@
 **.nc
 **.asv
+**__pycache__**
+**/*.ipynb_checkpoints
